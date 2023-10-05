@@ -12,7 +12,7 @@ const Home = () => {
         <div className="home__data">
           <h1 className="home__title">
             <span>I'm Peter Godswill.</span> <br />  
-               Web Developer
+               Web Developer/ graphics design
           </h1>
           <p className="home__description">
           I am a trained web developer with a diverse skill set, encompassing HTML, CSS, JavaScript, and proficiency in frameworks like React.js, Node.js, and Tailwind.css. My expertise also extends to WordPress, where I excel as a front-end web developer. 
