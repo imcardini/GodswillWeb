@@ -145,7 +145,7 @@
 .modal__item {
   flex-direction: column; 
   align-items: flex-start; 
-  column-gap: 0; /
+  column-gap: 0;
 }
 
 .item__icon {
