@@ -179,66 +179,65 @@
 }
 
 @media screen and (min-width:1024) {
-  /* Styles for Large Screens (e.g., Laptops, Desktops) */
 
 .portfolio__container {
   grid-template-columns: repeat(3, 1fr);
 }
 
 .portfolio__item {
-  margin-bottom: 30px; /* Adjust bottom margin for better spacing on large screens */
+  margin-bottom: 30px; 
 }
 
 .portfolio__img {
-  height: 250px; /* Adjust height for larger screens */
+  height: 250px; 
 }
 
 .portfolio__hover {
-  opacity: 0; /* Set initial opacity to 0 for hover effect on larger screens */
-  transition: opacity 0.3s ease; /* Add transition for hover effect on larger screens */
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
 }
 
 .portfolio__item:hover .portfolio__hover {
-  opacity: 1; /* Show hover effect on larger screens */
+  opacity: 1; 
 }
 
 .portfolio__title {
-  font-size: var(--normal-font-size); /* Adjust font size for larger screens */
-  transform: none; /* Remove transform for larger screens */
+  font-size: var(--normal-font-size);
+  transform: none; 
 }
 
 .portfolio__modal-content {
-  max-width: 550px; /* Adjust max-width for larger screens */
+  max-width: 550px; 
 }
 
 .modal__title {
-  font-size: var(--h3-font-size); /* Adjust font size for larger screens */
-  margin-bottom: 24px; /* Add bottom margin for spacing on larger screens */
+  font-size: var(--h3-font-size);
+  margin-bottom: 24px; 
 }
 
 .modal__item {
-  flex-direction: row; /* Reset item layout for larger screens */
-  align-items: center; /* Reset item alignment for larger screens */
-  column-gap: 8px; /* Add column gap for larger screens */
+  flex-direction: row; 
+  align-items: center; 
+  column-gap: 8px; 
 }
 
 .item__icon {
-  margin-bottom: 0; /* Remove margin for larger screens */
+  margin-bottom: 0; 
 }
 
 .item__title,
 .item__details {
-  font-size: var(--small-font-size); /* Adjust font size for larger screens */
+  font-size: var(--small-font-size); 
 }
 
 .modal__list {
-  grid-template-columns: repeat(2, 1fr); /* Change to two columns for larger screens */
-  row-gap: 0.5rem; /* Adjust row gap for larger screens */
-  margin-bottom: 2rem; /* Add bottom margin for spacing on larger screens */
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 0.5rem; 
+  margin-bottom: 2rem;
 }
 
 .modal__img {
-  height: 350px; /* Adjust height for larger screens */
+  height: 350px; 
 }
 
 }
