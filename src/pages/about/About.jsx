@@ -1,6 +1,6 @@
 import React from "react";
 import Skills from "../../component/Skills";
-import Info from "../../component/info";
+import Info from "../../component/Info";
 import Stats from "../../component/Stats";
 import CV from "../../assets/peterGodswill-Cv.pdf";
 import { resume } from "../../data";
