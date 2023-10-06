@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "../../component/Skills"
+import Skills from "../../component/skills"
 import Info from "../../component/Info";
 import Stats from "../../component/Stats";
 import CV from "../../assets/peterGodswill-Cv.pdf";
