@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from '../../component/Skills'
 import Info from "../../component/Info";
 import Stats from "../../component/Stats";
 import CV from "../../assets/peterGodswill-Cv.pdf";
@@ -38,7 +39,7 @@ const About = () => {
         <h3 className="section__subtitle subtitle__center">My unique Skills</h3>
 
         <div className="skills__container grid">
-       
+          <Skills />
         </div>
       </section>
       <div className="seperator"></div>
